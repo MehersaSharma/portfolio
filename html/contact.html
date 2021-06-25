@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+                <img src="../img/logo1.png" id="mylogo" onclick="homehref" style="cursor: pointer;">
+            </div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="news.html">Skills</a></li>
+                <li><a href="contact.html" class="active"> Contact</a></li>
+                <li><a href="about.html"> About me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <img src="../img/contact-us.jpg" style="cursor: pointer;" class="contactusimage">
+    <div class="contactus">
+        <div style="width:50%">
+            <h2>Contact</h2>
+            <h3>Phone no: +977 9823275878</h3>
+            <h3>Email-id: mehersasharma@yahoo.com</h3>
+            <p>To get more information leave me a message:</p>
+            <form>
+                <br><br>
+                <label for="fname" style="margin-right: 20px">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+                <label for="country">Country</label>
+                <select id="country" name="country"><br><br>
+	          <option value="Nepal">Nepal</option>
+	          <option value="China">China</option>
+	          <option value="Bangladesh">UK</option>
+              <option value="Bangladesh">India</option>
+              <option value="Bangladesh">USA</option>
+              <option value="Bangladesh">Canada</option>
+	        </select><br><br>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div style="width:50%">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.0005261206205!2d85.33411392916469!3d27.71722129892424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19881c098601%3A0xd6751ea08c5aba8f!2sMulmilawa!5e0!3m2!1sen!2snp!4v1624629136672!5m2!1sen!2snp"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="imagesfooter">
+            <img src="../img/facebook1.png" id="facebook">
+            <img src="../img/youtube2.png" id="youtube">
+        </div>
+        <div class="namefooter">
+            <p> (C) Mehersa Sharma. </p>
+
+        </div>
+    </div>
+</body>
